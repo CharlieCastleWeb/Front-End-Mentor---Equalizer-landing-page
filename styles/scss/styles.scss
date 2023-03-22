@@ -1,0 +1,90 @@
+
+/* RESET */
+
+@import 'reset';
+
+/* VARIABLES */
+
+$green: #66E2DC;
+$red: #FA7453;
+$yellow: #FFB964;
+$offwhite: #FCFAF9;
+
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../../assets/fonts/IBMPlexSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Bold';
+    src: url('../../assets/fonts/IBMPlexSans-Bold.ttf');
+}
+
+body {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans Bold', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+
+/* LAYOUT */
+body {
+    background-image: url('../../assets/images/bg-main-mobile.png');
+}
+
+header, 
+.hero, 
+footer {
+    width: 87.2%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 41%;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    margin-top: 4rem;
+}
+
+.hero p {
+    margin-top: 1.2rem;
+}
+
+.offer {
+    margin-top: 10.375rem;
+}
+
+.offer-image {
+    background-image: url('../../assets/images/bg-pattern-2.svg');
+    background-repeat: no-repeat;
+    background-size: 73%;
+    background-position: top center;
+    background-color: #191826;
+    height: 23.75rem;
+    position: relative;
+}
+
+.offer-content {
+    background-color: $red;
+}
+
+.offer img {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -6.125rem;
+    display: block;
+    max-width: 55.72%;
+    margin: 0 auto;
+}
