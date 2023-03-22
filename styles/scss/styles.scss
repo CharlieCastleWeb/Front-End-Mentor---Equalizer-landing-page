@@ -75,6 +75,10 @@ h2 {
     margin-right: 1rem;
 }
 
+.footer p {
+    line-height: 1.625rem;
+}
+
 .offer a {
     font-family: 'IBM Plex Sans Bold', sans-serif;
     font-size: 1.125rem;
@@ -186,7 +190,7 @@ footer .logo {
 }
 
 footer p {
-margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .social-media {
@@ -196,4 +200,100 @@ margin-top: 1.5rem;
 
 .social-media img {
     margin-right: 1.25rem;
+}
+
+/* TABLET LAYOUT */
+
+@media (min-width: 650px) {
+    
+    body {
+        background-image: url("../../assets/images/bg-pattern-1.svg"), 
+                          url("../../assets/images/bg-main-tablet.png");
+        background-position: 108% -2.5%, 75% -40%;
+        background-size: 35%, auto;
+    }
+
+    header, 
+    .hero, 
+    footer {
+        width: 90.5%;
+    }
+
+    .logo {
+        width: 21.02%;
+        margin-top: 3.875rem;
+    }
+
+    .hero {
+        width: 67%;
+        margin-top: 5.5rem;
+        margin-left: 2.4375rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .hero p {
+        margin-top: 1.8rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .offer {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15.5rem;
+        position: relative;
+        padding-bottom: 13.8rem;
+    }
+
+    .offer-image {
+        background-size: 42%;
+        background-position: 54% 55%;
+    }
+
+    .offer img {
+        width: 39%;
+        left: 28%;
+        top: -8.625rem;
+    }
+
+    .offer-content {
+        width: 57.4%;
+        position: absolute;
+        top: 9.375rem;
+        right: 3.625rem;
+        padding: 3rem 2.7rem;
+    }
+
+    footer {
+        margin-top: 11.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 10rem;
+    }
+
+
+    footer .logo {
+        width: 36.35%;
+        margin-top: 0;
+    }
+
+    .footer-text {
+        width: 55%;
+        overflow: hidden;
+    }
+
+    .social-media {
+        margin: 0;
+        margin-bottom: 1.2rem;
+        // align-self: flex-end;
+    }
+
+    .social-media img:nth-last-child(1) {
+        margin-right: 0.2rem;
+    }
 }
