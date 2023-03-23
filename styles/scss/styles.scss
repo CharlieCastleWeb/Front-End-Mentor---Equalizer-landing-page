@@ -91,7 +91,7 @@ h2 {
 }
 
 /* LAYOUT */
-body {
+.container {
     background-image: url('../../assets/images/bg-main-mobile.png');
     background-position: -10% -20%;
     background-repeat: no-repeat;
@@ -224,10 +224,17 @@ footer p {
 @media (min-width: 650px) {
     
     body {
-        background-image: url("../../assets/images/bg-pattern-1.svg"), 
+        background-image:  
                           url("../../assets/images/bg-main-tablet.png");
-        background-position: 108% -2.5%, 75% -40%;
-        background-size: 35%, auto;
+        background-position:  75% -40%;
+        background-size:  auto;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        background-image: url("../../assets/images/bg-pattern-1.svg");
+        background-position: 108% -2.5%;
+        background-size: 35%;
     }
 
     header, 
@@ -324,11 +331,21 @@ footer p {
 /* DESKTOP LAYOUT */
 
 @media (min-width: 1000px) {
+    
+    
     body {
-        background-image: url("../../assets/images/bg-pattern-1.svg"), 
+        background-image:  
                           url("../../assets/images/bg-main-desktop.png");
-        background-position: 100% -3%, 75% -40%;
-        background-size: 22%, auto;
+        background-repeat: no-repeat;
+        background-position:  75% 100%;
+        background-size:  auto;
+    }
+
+    .container {
+        background-image: url("../../assets/images/bg-pattern-1.svg");
+        background-repeat: no-repeat;
+        background-position: 100% -3%;
+        background-size: 22%;
     }
 
     header, 
@@ -442,5 +459,12 @@ footer p {
     .social-logo:hover {
         cursor: pointer;
         background-color: $red;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1600px;
+        margin: 0 auto;
     }
 }

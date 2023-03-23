@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/equalizer-landing-page-e8IBD6yvUo](https://www.frontendmentor.io/solutions/equalizer-landing-page-e8IBD6yvUo)
 - Live Site URL: [https://charliecastleweb.github.io/Front-End-Mentor---Equalizer-landing-page/](https://charliecastleweb.github.io/Front-End-Mentor---Equalizer-landing-page/)
 
 ## My process
